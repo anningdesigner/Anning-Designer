@@ -6,115 +6,116 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anning Designer</title>
 
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f5f5f5;
-}
-
-header{
-background:#111;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-.hero{
-padding:80px 20px;
-text-align:center;
-background:white;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:20px;
-color:#666;
-}
-
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#25D366;
-color:white;
-text-decoration:none;
-border-radius:5px;
-}
-
-.services{
-padding:50px 20px;
-text-align:center;
-}
-
-.service-box{
-background:white;
-padding:20px;
-margin:15px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
-footer{
-background:#111;
-color:white;
-padding:20px;
-text-align:center;
-}
-</style>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h2>Anning Designer</h2>
+    <div class="container">
+        <h2>Anning Designer</h2>
+
+```
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</div>
+```
+
 </header>
 
 <section class="hero">
-<h1>Creative Design Solutions</h1>
-<p>Social Media • Branding • Marketing Designs</p>
+    <h1>Graphic & UI/UX Designer</h1>
 
-<a class="btn" href="#contact">
-Get Started
+```
+<p>
+    Transforming Ideas Into Stunning Visual Experiences
+</p>
+
+<a href="#contact" class="btn">
+    Start Your Project
 </a>
+```
+
 </section>
 
-<section class="services">
-<h2>Our Services</h2>
+<section id="about" class="section">
+    <h2>About Me</h2>
 
-<div class="service-box">
-Social Media Post Design
-</div>
+```
+<p>
+    I help businesses create impactful visual designs,
+    social media creatives, branding assets,
+    website designs and mobile app UI/UX experiences.
+</p>
+```
 
-<div class="service-box">
-Logo Design
-</div>
-
-<div class="service-box">
-Banner & Brochure Design
-</div>
-
-<div class="service-box">
-Business Profile Design
-</div>
 </section>
 
-<section id="contact" class="services">
-<h2>Contact Us</h2>
+<section id="services" class="section">
+    <h2>Services</h2>
 
-<p>Email: your@email.com</p>
+```
+<div class="cards">
 
-<p>WhatsApp: +91 XXXXXXXXXX</p>
+    <div class="card">
+        🎨 Graphic Design
+    </div>
+
+    <div class="card">
+        📱 Mobile App UI Design
+    </div>
+
+    <div class="card">
+        💻 Website UI Design
+    </div>
+
+    <div class="card">
+        🚀 Social Media Design
+    </div>
+
+    <div class="card">
+        🖌 Logo Design
+    </div>
+
+    <div class="card">
+        📑 Business Profile Design
+    </div>
+
+</div>
+```
+
+</section>
+
+<section id="contact" class="section">
+
+```
+<h2>Get In Touch</h2>
+
+<form id="contactForm">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+
+    <input type="email" id="email" placeholder="Email Address" required>
+
+    <input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+    <button type="submit">
+        Continue To WhatsApp
+    </button>
+
+</form>
+```
+
 </section>
 
 <footer>
-© 2026 Anning Designer
+    © 2026 Anning Designer
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
