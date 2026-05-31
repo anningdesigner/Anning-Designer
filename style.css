@@ -119,7 +119,7 @@ align-items:center;
 }
 
 .logo img{
-height:90px;
+height:100px;
 width:auto;
 display:block;
 object-fit:contain;
@@ -127,7 +127,7 @@ object-fit:contain;
 
 header{
 background:#081225;
-padding:10px 0;
+padding:20px 0;
 position:sticky;
 top:0;
 z-index:1000;
