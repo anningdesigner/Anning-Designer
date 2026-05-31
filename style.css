@@ -116,16 +116,28 @@ text-align:center;
 .logo{
 display:flex;
 align-items:center;
-gap:12px;
 }
 
 .logo img{
-height:55px;
+height:90px;
 width:auto;
+display:block;
+object-fit:contain;
 }
 
-.logo span{
-color:white;
-font-size:24px;
-font-weight:700;
+header{
+background:#081225;
+padding:10px 0;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
