@@ -119,10 +119,8 @@ align-items:center;
 }
 
 .logo img{
-height:100px;
-width:100px;
-display:block;
-object-fit:contain;
+height:160px;
+width:auto;
 }
 
 header{
