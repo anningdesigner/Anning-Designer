@@ -3,19 +3,27 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
 e.preventDefault();
 
 let name = document.getElementById("name").value;
-let email = document.getElementById("email").value;
-let mobile = document.getElementById("mobile").value;
 
 let message =
-`Hello Anning Designer,
+`✨ Welcome to Anning Designer
 
-My Name: ${name}
+Hello ${name},
 
-Email: ${email}
+Thank you for contacting us.
 
-Mobile: ${mobile}
+How can we help you today?
 
-I would like to know more about your Graphic Design and UI/UX Design Services.`;
+Our Services:
+
+🎨 Graphic Design
+📱 Mobile App UI Design
+💻 Website UI Design
+🚀 Social Media Design
+🖌 Logo Design
+📑 Business Profile Design
+🎯 Branding & Marketing Creatives
+
+Please let us know which service you are interested in, and our team will assist you further.`;
 
 let whatsappUrl =
 `https://wa.me/918320453064?text=${encodeURIComponent(message)}`;
