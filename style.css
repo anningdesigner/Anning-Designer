@@ -119,8 +119,9 @@ align-items:center;
 }
 
 .logo img{
-height:100px;
+height:80px;
 width:auto;
+object-fit:contain;
 }
 
 header{
@@ -138,4 +139,16 @@ margin:auto;
 display:flex;
 justify-content:space-between;
 align-items:center;
+}
+@media (max-width:768px){
+
+.logo img{
+height:50px;
+}
+
+nav a{
+font-size:14px;
+margin-left:10px;
+}
+
 }
