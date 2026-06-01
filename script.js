@@ -31,3 +31,7 @@ let whatsappUrl =
 window.open(whatsappUrl,"_blank");
 
 });
+function toggleMenu(){
+document.getElementById("mobileMenu").classList.toggle("show-menu");
+}
+
